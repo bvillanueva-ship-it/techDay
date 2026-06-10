@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Sitio web sobre los pilotos de Fórmula 1 organizados por equipos. Incluye información básica y formulario de contacto.">
+    <meta name="keywords" content="Formula 1, F1, pilotos, equipos, Ferrari, McLaren, Red Bull, Mercedes, automovilismo, carreras">
+
+    <title>Pilotos de Fórmula 1</title>
+
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .contenedor{
+            display: flex;
+            gap: 30px;
+        }
+
+        .texto{
+            width: 70%;
+        }
+
+        .imagen{
+            width: 30%;
+            border: 2px dashed gray;
+            min-height: 500px;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        form{
+            margin-top: 20px;
+        }
+
+        input, select, textarea{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button{
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><i class="ti ti-flag-3"></i> Pilotos de Fórmula 1</h1>
+
+        <p>
+            La Fórmula 1 reúne a los mejores pilotos del mundo. En esta página
+            encontrarás algunos de los principales equipos y sus pilotos.
+        </p>
+    </header>
+
+    <hr>
+
+    <div class="contenedor">
+
+        <!-- COLUMNA IZQUIERDA -->
+        <div class="texto">
+
+            <section>
+                <h2><i class="ti ti-car"></i> Red Bull Racing</h2>
+                <ul>
+                    <li>Max Verstappen</li>
+                    <li>Yuki Tsunoda</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><i class="ti ti-car"></i> Ferrari</h2>
+                <ul>
+                    <li>Charles Leclerc</li>
+                    <li>Lewis Hamilton</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><i class="ti ti-car"></i> McLaren</h2>
+                <ul>
+                    <li>Lando Norris</li>
+                    <li>Oscar Piastri</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><i class="ti ti-car"></i> Mercedes</h2>
+                <ul>
+                    <li>George Russell</li>
+                    <li>Andrea Kimi Antonelli</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><i class="ti ti-mail"></i> Formulario de Contacto</h2>
+
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Ingrese su nombre">
+
+                    <label>Email:</label>
+                    <input type="email" placeholder="Ingrese su correo">
+
+                    <label>Piloto:</label>
+                    <select>
+                        <option>Max Verstappen</option>
+                        <option>Yuki Tsunoda</option>
+                        <option>Charles Leclerc</option>
+                        <option>Lewis Hamilton</option>
+                        <option>Lando Norris</option>
+                        <option>Oscar Piastri</option>
+                        <option>George Russell</option>
+                        <option>Andrea Kimi Antonelli</option>
+                    </select>
+
+                    <label>Mensaje:</label>
+                    <textarea rows="5"></textarea>
+
+                    <button type="submit">
+                        <i class="ti ti-send"></i> Enviar
+                    </button>
+                </form>
+            </section>
+
+        </div>
+
+        <!-- COLUMNA DERECHA -->
+        <img src="./assets/descarga.jpg" alt="Lewis Hamilton">
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>
+            <i class="ti ti-trophy"></i>
+            Pagina web hecha por: Santino Brachetta, Lorenzo Afranlie y Bennjamin Villanueva
+        </p>
+    </footer>
+
+</body>
+</html>
